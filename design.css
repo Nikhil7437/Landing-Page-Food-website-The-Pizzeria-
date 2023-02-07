@@ -1,0 +1,41 @@
+.button-formate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 10px 20px;
+    font-family: var(--font-button);
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+.button-formate:hover {
+    background-color: white;
+    color: black;
+}
+@media screen and (max-width:600px) {
+
+    .button-formate {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        /* padding: 10px 20px; */
+        font-family: var(--font-button);
+        text-transform: uppercase;
+        font-size: 10px;
+        letter-spacing: 3px;
+        border-radius: 5px;
+        /* color: white; */
+        /* border: 2px solid white; */
+        cursor: pointer;
+        transition: 0.1s ease-in;
+    }
+
+
+}
